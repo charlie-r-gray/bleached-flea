@@ -1,9 +1,12 @@
 import React from 'react'
 
+import CharGen from './charGen'
+
 function App() {
   return (
     <div>
-      <h1>Widgets for the win!</h1>
+      <p>App Header, I guess.</p>
+      <CharGen />
     </div>
   )
 }
